@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: PippinW
-      url-base: https://github.com/PippinW
+    - name: GerardoNevarez
+      url-base: https://github.com/GerardoNevarez
   projects:
     - name: zmk
-      remote: PippinW
-      revision: default_rebound
+      remote: GerardoNevarez
+      revision: default_rebound_rebased_2.5
       import: app/west.yml
   self:
     path: config
